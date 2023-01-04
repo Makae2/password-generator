@@ -6,11 +6,6 @@ outputEl1.textContent= ""
 outputEl2.textContent = ""
 let passwordLength = 12
 
-function genarate() {
-  let randompassword =Math.floor(Math.random()*characters.length)
-   return characters[randompassword] 
-}
-
 function generateRandomPassword() {
     let password = ""
     let password2 = ""
@@ -25,6 +20,13 @@ function generateRandomPassword() {
    return password
     
 }
+
+function genarate() {
+  let randompassword =Math.floor(Math.random()*characters.length)
+   return characters[randompassword] 
+}
+
+
 
 //const generatedPasswordOne = generateRandomPassword()
 
